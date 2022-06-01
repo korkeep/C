@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define COMPARE(x,y) ((x)>(y) ? -1 : ((x)==(y)) ? 0 : 1)
+#define COMPARE(x,y) ((x)<(y) ? -1 : ((x)==(y)) ? 0 : 1)
 
 // 반복을 이용
 int binsearch_1(int list[], int target, int left, int right){
