@@ -5,7 +5,7 @@
 <p align='center'><img title="horowitz" alt="data-structure" src="https://github.com/korkeep/C/blob/master/res/image.jpg" width="180"/></p>
 
 ### Info
-- 이석호 교수의 [C로 쓴 자료구조론](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788970858944#book_info)을 참고했습니다.  
+- 이석호 교수의 [C로 쓴 자료구조론](https://book.naver.com/bookdb/book_detail.nhn?bid=4439783)을 참고했습니다.  
 - 파일명은 **[목차번호]\_[페이지]\_[알고리즘 이름].c**으로 통일했습니다.  
 
 ### Index
