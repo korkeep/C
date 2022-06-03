@@ -15,7 +15,7 @@ void push(element item){
 
 // pop: stack의 최상위 원소를 삭제하고 반환
 element pop(){
-    if(top==-1) return stackEmpty();
+    if(top==-1) stackEmpty();
     return stack[top--];
 }
 
@@ -23,8 +23,7 @@ void stackFull(){
     printf("Stack is full, cannot add element\n");
 }
 
-element stackEmpty(){
-    element err; err.key = -1;
+void stackEmpty(){
     printf("Stack is empty, cannot pop element\n");
-    return err;
+    exit(-1);
 }
