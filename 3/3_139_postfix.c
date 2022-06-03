@@ -26,7 +26,7 @@ void stackFull(){
 
 void stackEmpty(){
     printf("Stack is empty, cannot pop element\n");
-    // exit(-1);
+    exit(-1);
 }
 
 // precedence: 우선순위 열거 타입
