@@ -9,10 +9,10 @@
 - 파일명은 **[목차번호]\_[페이지]\_[알고리즘 이름].c**으로 통일했습니다.  
 
 ### Index
-1. 기본 개념
-2. 배열과 구조
-3. 스택과 큐
-4. 리스트
+1. [기본 개념](https://github.com/korkeep/C/tree/master/1)
+2. [배열과 구조](https://github.com/korkeep/C/tree/master/2)
+3. [스택과 큐](https://github.com/korkeep/C/tree/master/3)
+4. [리스트](https://github.com/korkeep/C/tree/master/4)
 5. 트리
 6. 그래프
 7. 정렬
