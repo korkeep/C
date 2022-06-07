@@ -13,7 +13,7 @@
 2. [배열과 구조](https://github.com/korkeep/C/tree/master/2)
 3. [스택과 큐](https://github.com/korkeep/C/tree/master/3)
 4. [리스트](https://github.com/korkeep/C/tree/master/4)
-5. 트리
+5. [트리](https://github.com/korkeep/C/tree/master/5)
 6. 그래프
 7. 정렬
 8. 해싱
