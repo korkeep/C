@@ -49,11 +49,15 @@ treePointer pop(){
 
 void levelOrder(treePointer ptr){
     if(!ptr) return;
+    // queue에 첫 노드 삽입
     push(ptr);
     while(1){
+        // pop 결과를 ptr에 저장
         ptr = pop();
         if(ptr){
+            // 현재 node 출력
             printf("%d ", ptr->data);
+            // queue에 왼쪽, 오른쪽 자식 삽입
             if(ptr->leftChild) push(ptr->leftChild);
             if(ptr->rightChild) push(ptr->rightChild);
         }

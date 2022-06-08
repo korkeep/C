@@ -44,13 +44,16 @@ treePointer pop(){
 // iterInorder: 반복적 중위 순회
 void iterInorder(treePointer ptr){
     while(1){
+        // ptr의 왼쪽 방향으로 이동, stack에 push
         while(ptr){
             push(ptr);
             ptr = ptr->leftChild;
         }
+        // pop 결과를 ptr에 저장, 출력
         ptr = pop();
         if(!ptr) break;
         printf("%d ", ptr->data);
+        // ptr의 오른쪽 자식으로 이동
         ptr = ptr->rightChild;
     }
 }
