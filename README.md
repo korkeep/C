@@ -14,10 +14,10 @@
 3. [스택과 큐](https://github.com/korkeep/C/tree/master/3)
 4. [리스트](https://github.com/korkeep/C/tree/master/4)
 5. [트리](https://github.com/korkeep/C/tree/master/5)
-6. 그래프
-7. 정렬
-8. 해싱
-9. 우선순위 큐
-10. 효율적인 이원 탐색 트리
-11. 다원 탐색 트리
-12. 디지털 탐색 구조
+6. [그래프](https://github.com/korkeep/C/tree/master/6)
+7. [정렬](https://github.com/korkeep/C/tree/master/7)
+8. [해싱](https://github.com/korkeep/C/tree/master/8)
+9. [우선순위 큐](https://github.com/korkeep/C/tree/master/9)
+10. [효율적인 이원 탐색 트리](https://github.com/korkeep/C/tree/master/10)
+11. [다원 탐색 트리](https://github.com/korkeep/C/tree/master/11)
+12. [디지털 탐색 구조](https://github.com/korkeep/C/tree/master/12)
