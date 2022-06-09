@@ -21,7 +21,7 @@ void weightUnion(int i, int j){
 }
 
 // collapsingFind: 붕괴 규칙을 이용하여 root로 가는 모든 노드를 붕괴
-// cf. 붕괴규칙: j가 i에서 루트로 가는 경로에 있으며, parent[i] != root(i)이면 parent[j]를 root(i)로 지정
+// cf. 붕괴규칙: j가 i에서 루트로 가는 경로에 있으며, parent[j]를 root[i]로 지정
 int collapsingFind(int i){
     int root, trail, lead;
     // 가장 높은 위치의 root를 찾아옴
