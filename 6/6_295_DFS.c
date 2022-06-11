@@ -3,25 +3,25 @@
 
 #define FALSE 0
 #define TRUE 1
-#define MAX 100
+#define NODES 100
 #define MALLOC(p,s) \
     if(!((p)=malloc(s))) { \
         printf("Insufficient memory"); \
         exit(-1); \
     }
 
-typedef struct node *stackPointer;
+typedef struct node *nodePointer;
 typedef struct node{
     int vertex;
-    stackPointer link;
+    nodePointer link;
 } node;
 
-stackPointer graph[MAX];
-short int visited[MAX];
+nodePointer graph[NODES];
+short int visited[NODES];
 
 // push: i번째 연결 스택에서의 삽입
 void push(int i, int item){
-    stackPointer temp;
+    nodePointer temp;
     MALLOC(temp, sizeof(*temp));
 
     temp->vertex = item;
@@ -31,16 +31,18 @@ void push(int i, int item){
 
 // dfs: 깊이 우선 탐색
 void dfs(int v){
-    stackPointer w;
+    nodePointer w;
+    // 첫 노드 visit 설정 & 출력
     visited[v] = TRUE;
     printf("%3d ", v);
+    // v부터 시작해서 link로 연결된 정점의 재귀 호출
     for(w = graph[v]; w; w = w->link)
         if(!visited[w->vertex]) dfs(w->vertex);
 }
 
 int main(){
     
-    // cf. 스택이므로 역순으로 삽입
+    // cf. push 함수가 스택이므로 역순으로 삽입
     push(0, 2); push(0, 1);
     push(1, 4); push(1, 3); push(1, 0);
     push(2, 6), push(2, 5); push(2, 0);
