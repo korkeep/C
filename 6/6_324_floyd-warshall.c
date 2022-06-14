@@ -41,7 +41,7 @@ void floyd(int n){
         printf("iter %d\n", k+1);
         for(i=0; i<n; i++){
             for(j=0; j<n; j++){
-                if(dist[i][j]>dist[i][k]+dist[k][j])
+                if(dist[i][j] > dist[i][k]+dist[k][j])
                     dist[i][j] = dist[i][k]+dist[k][j];
                 
             }
