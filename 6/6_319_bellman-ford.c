@@ -40,7 +40,7 @@ void bellmanford(graphPtr g, int src){
             int v = g->edge[j].dest;
             int weight = g->edge[j].weight;
             // case 1. 정점 u가 무한대가 아닌 경우
-            // case 2. "시작점까지 최단거리 + 가중치 < 도착점의 가중치"인 경우 업데이트
+            // case 2. "시작점까지 최단거리 + 가중치 < 도착점의 가중치"인 경우
             if(dist[u]!=INF && dist[u]+weight < dist[v]) dist[v] = dist[u]+weight;
             printf("u:%2d, v:%2d ->", u, v);
             for(k=0; k<g->V; k++) dist[k] != INF ? printf("%3d ", dist[k]) : printf("INF ");
