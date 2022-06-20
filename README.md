@@ -19,5 +19,5 @@
 8. [해싱](https://github.com/korkeep/C/tree/master/8)
 9. [우선순위 큐](https://github.com/korkeep/C/tree/master/9)
 10. [효율적인 이원 탐색 트리](https://github.com/korkeep/C/tree/master/10)
-11. [다원 탐색 트리](https://github.com/korkeep/C/tree/master/11)
-12. [디지털 탐색 구조](https://github.com/korkeep/C/tree/master/12)
+11. 다원 탐색 트리
+12. 디지털 탐색 구조
