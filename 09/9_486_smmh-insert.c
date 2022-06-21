@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define FALSE -1
+#define FALSE 0
 #define TRUE 1
 
 // P1. 각 노드의 원소는 오른쪽 형제에 있는 원소보다 작거나 같다.
