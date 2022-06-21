@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 #define TRUE 1
-#define FALSE -1
+#define FALSE 0
 
 typedef struct element{
     int key;
@@ -155,5 +155,7 @@ void main(){
     }
 
     printf("Inorder: "); inorder(avl); printf("\n");
+    printf("Preorder: "); preorder(avl); printf("\n");
+    printf("Postorder: "); postorder(avl); printf("\n");
 
 }
